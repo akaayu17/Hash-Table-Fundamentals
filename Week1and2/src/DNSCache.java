@@ -17,7 +17,6 @@ class DNSEntry {
         return System.currentTimeMillis() > expiryTime;
     }
 }
-
 public class DNSCache {
 
     private int capacity;
