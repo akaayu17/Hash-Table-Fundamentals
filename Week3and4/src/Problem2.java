@@ -13,7 +13,6 @@ class Client {
         return name + "(" + riskScore + ", $" + accountBalance + ")";
     }
 }
-
 public class Problem2 {
 
     // Bubble Sort by riskScore ASC
