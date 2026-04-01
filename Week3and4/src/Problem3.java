@@ -142,7 +142,6 @@ public class Problem3 {
 
         Trade[] merged = mergeLists(morning, afternoon);
 
-        // Total Volume
         int total = totalVolume(merged);
 
         System.out.println("Merged Trades: " + Arrays.toString(merged));
