@@ -137,7 +137,6 @@ public class Problem3 {
                 new Trade("a1", 200),
                 new Trade("a2", 400)
         };
-
         mergeSort(morning, 0, morning.length - 1);
         mergeSort(afternoon, 0, afternoon.length - 1);
 
